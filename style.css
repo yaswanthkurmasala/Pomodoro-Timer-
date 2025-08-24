@@ -1,0 +1,188 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #E0FFFF; /* Light Cyan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    max-width: 360px;
+    width: 100%;
+    border: 3px solid #2a91b3; /* Navy Blue Outline */
+  }
+  
+  
+  h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #20124d; 
+  }
+  
+  
+  .session {
+    font-size: 1.2rem;
+    font-weight: bold;      /* Bold text */
+    color: #000000;         /* Black color */
+    margin-bottom: 20px;
+  }
+  
+  
+  .circle-container {
+    position: relative;
+    width: 220px;
+    height: 220px;
+    margin: 0 auto 15px;
+  }
+  
+  .progress-ring {
+    transform: rotate(-90deg);
+  }
+  
+  .progress-ring-bg {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 10;
+  }
+  
+  .progress-ring-circle {
+    fill: none;
+    stroke: #2a91b3; /* Deep Sky Blue */
+    stroke-width: 10;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 1s linear;
+  }
+  
+  .circle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #20124d; 
+  }
+  
+  
+  .session-progress {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .controls button {
+    padding: 10px 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .controls button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  
+  #startBtn {
+    background: #14763d; /* Green */
+    color: white;
+  }
+  
+  #stopBtn {
+    background: #d6b120; /* Yellow */
+    color: white;
+  }
+  
+  #resetBtn {
+    background: #eb4735; /* Red */
+    color: white;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ffecd2, #fcb69f, #a1c4fd, #c2e9fb, #d4fc79, #96e6a1); 
+    background-size: 500% 500%;
+    animation: gradientAnimation 20s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  body::before {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: -20%;
+    width: 140%;
+    height: 140%;
+    background: inherit;
+    filter: blur(80px);
+    z-index: 0;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.7); /* semi-transparent white card */
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 360px;
+    width: 100%;
+    border: 3px solid #2a91b3;
+    backdrop-filter: blur(10px);
+  }
+  
+  h1, .session, .session-progress, .circle-text {
+    color: #20124d;
+  }
+  
+  .controls button {
+    padding: 10px 16px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .controls button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  #startBtn {
+    background: #28a745; /* Green */
+    color: white;
+  }
+  
+  #stopBtn {
+    background: #ffc107; /* Yellow */
+    color: black;
+  }
+  
+  #resetBtn {
+    background: #dc3545; /* Red */
+    color: white;
+  }
+  
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
