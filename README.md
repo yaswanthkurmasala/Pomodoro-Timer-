@@ -1,9 +1,9 @@
-#Pomodoro Timer ⏳🍅
+Pomodoro Timer ⏳🍅
 
 A simple Pomodoro Timer Web App built with HTML, CSS, and JavaScript.
 It uses an animated circular progress ring and session tracking to help you stay productive.
 
-#🚀 Features
+🚀 Features
 
 ⏱️ 25 min Work Timer with session tracking
 
@@ -17,7 +17,7 @@ It uses an animated circular progress ring and session tracking to help you stay
 
 
 
-#📂 Project Structure
+📂 Project Structure
 pomodoro-timer/
 │── index.html      # Main HTML file
 │── style.css       # Styling (UI & animations)
@@ -59,7 +59,7 @@ If you want to run with a local server using Node.js:
 4.Open browser → http://localhost:8080
 
 
-#🎮 Usage
+🎮 Usage
 
 Click Start ▶️ to begin the timer (default: 25 minutes work session).
 
@@ -70,13 +70,13 @@ Click Reset 🔄 to reset back to 25:00.
 Track your progress at the bottom (1/4 sessions completed).
 
 
-#📸 Screenshots
+📸 Screenshots
 
 <img width="1920" height="1128" alt="Screenshot 2025-08-24 092433" src="https://github.com/user-attachments/assets/98481985-bd90-4cf9-a23a-9db7f63fe3f7" />
 <img width="1920" height="1200" alt="Screenshot 2025-08-24 092408" src="https://github.com/user-attachments/assets/370ac2db-b816-41b9-b939-f6b99006cf59" />
 
 
-#📌 Future Enhancements
+📌 Future Enhancements
 
 🔔 Add sound notifications at the end of sessions
 
